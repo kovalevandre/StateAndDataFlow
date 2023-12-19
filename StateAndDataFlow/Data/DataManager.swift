@@ -22,7 +22,7 @@ final class DataManager {
         return user
     }
     func clear(userManager: UserManager) {
-        userManager.user.isRegastered = false
+        userManager.user.isRegistered = false
         userManager.user.name = ""
         userData = nil
     }

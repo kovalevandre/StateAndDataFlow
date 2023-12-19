@@ -16,6 +16,7 @@ final class UserManager: ObservableObject {
     }
     
     init() {}
+    
     init(user: User) {
         self.user = user
     }
@@ -23,5 +24,5 @@ final class UserManager: ObservableObject {
 
 struct User: Codable {
     var name = ""
-    var isRegastered = false
+    var isRegistered = false
 }

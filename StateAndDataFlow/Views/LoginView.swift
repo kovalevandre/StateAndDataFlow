@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RegisterView: View {
+struct LoginView: View {
     
     @EnvironmentObject private var userManager: UserManager
     
@@ -28,7 +28,7 @@ struct RegisterView: View {
     }
     
     private func registerUser() {
-        userManager.user.isRegastered.toggle()
+        userManager.user.isRegistered.toggle()
         DataManager.shared.save(user: userManager.user)
     }
 }
@@ -56,5 +56,6 @@ struct UserNameTF: View {
 
 
 #Preview {
-    RegisterView()
+    LoginView()
+        .environmentObject(UserManager())
 }

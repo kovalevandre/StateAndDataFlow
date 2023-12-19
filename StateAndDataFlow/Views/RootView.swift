@@ -7,22 +7,23 @@
 
 import SwiftUI
 
-struct StarterView: View {
+struct RootView: View {
     
-    @StateObject private var userManager = UserManager()
+    @EnvironmentObject private var userManager: UserManager
     
     var body: some View {
+        
         Group {
-            if userManager.user.isRegastered {
+            if userManager.user.isRegistered {
                 ContentView()
             } else {
-                RegisterView()
+                LoginView()
             }
         }
-        .environmentObject(userManager)
     }
 }
 
 #Preview {
-    StarterView()
+    RootView()
+        .environmentObject(UserManager())
 }
