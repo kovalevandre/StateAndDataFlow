@@ -16,9 +16,11 @@ struct ContentView: View {
             Text("Hi, \(userManager.user.name)")
                 .font(.largeTitle)
                 .padding(.top, 100)
+            
             Text(timer.counter.formatted())
                 .font(.largeTitle)
                 .padding(.top, 100)
+            
             Spacer()
             
             CustomButtonView(
@@ -37,8 +39,7 @@ struct ContentView: View {
         }
     }
 }
-    
-    
+        
     #Preview {
         ContentView()
             .environmentObject(UserManager())

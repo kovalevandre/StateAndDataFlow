@@ -54,7 +54,6 @@ struct UserNameTF: View {
     }
 }
 
-
 #Preview {
     LoginView()
         .environmentObject(UserManager())

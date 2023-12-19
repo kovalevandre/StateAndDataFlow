@@ -12,7 +12,6 @@ class TimeCounter: ObservableObject {
     let objectWillChange = ObservableObjectPublisher()
     var counter = 3
     var buttonTitle = "START"
-    
     var timer: Timer?
     
     func startTimer() {
