@@ -11,6 +11,12 @@
 		CD7EA81F2B30B92F0037E429 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EA81E2B30B92F0037E429 /* ContentView.swift */; };
 		CD7EA8212B30B92F0037E429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7EA8202B30B92F0037E429 /* Assets.xcassets */; };
 		CD7EA8242B30B92F0037E429 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7EA8232B30B92F0037E429 /* Preview Assets.xcassets */; };
+		CD7EA82B2B315DCF0037E429 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EA82A2B315DCF0037E429 /* TimeCounter.swift */; };
+		CD7EA82F2B3165F50037E429 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EA82E2B3165F50037E429 /* StarterView.swift */; };
+		CD7EA8312B3166160037E429 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EA8302B3166160037E429 /* RegisterView.swift */; };
+		CD7EA8332B3166480037E429 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EA8322B3166480037E429 /* CustomButtonView.swift */; };
+		CD7EA8352B316B2E0037E429 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EA8342B316B2E0037E429 /* DataManager.swift */; };
+		CD7EA8372B316B4C0037E429 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EA8362B316B4C0037E429 /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		CD7EA81E2B30B92F0037E429 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD7EA8202B30B92F0037E429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD7EA8232B30B92F0037E429 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD7EA82A2B315DCF0037E429 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		CD7EA82E2B3165F50037E429 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		CD7EA8302B3166160037E429 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		CD7EA8322B3166480037E429 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		CD7EA8342B316B2E0037E429 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CD7EA8362B316B4C0037E429 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				CD7EA81C2B30B92F0037E429 /* StateAndDataFlowApp.swift */,
+				CD7EA82A2B315DCF0037E429 /* TimeCounter.swift */,
+				CD7EA82E2B3165F50037E429 /* StarterView.swift */,
+				CD7EA8302B3166160037E429 /* RegisterView.swift */,
 				CD7EA81E2B30B92F0037E429 /* ContentView.swift */,
+				CD7EA8322B3166480037E429 /* CustomButtonView.swift */,
+				CD7EA8362B316B4C0037E429 /* UserManager.swift */,
+				CD7EA8342B316B2E0037E429 /* DataManager.swift */,
 				CD7EA8202B30B92F0037E429 /* Assets.xcassets */,
 				CD7EA8222B30B92F0037E429 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7EA82F2B3165F50037E429 /* StarterView.swift in Sources */,
+				CD7EA8312B3166160037E429 /* RegisterView.swift in Sources */,
+				CD7EA82B2B315DCF0037E429 /* TimeCounter.swift in Sources */,
+				CD7EA8352B316B2E0037E429 /* DataManager.swift in Sources */,
+				CD7EA8332B3166480037E429 /* CustomButtonView.swift in Sources */,
 				CD7EA81F2B30B92F0037E429 /* ContentView.swift in Sources */,
+				CD7EA8372B316B4C0037E429 /* UserManager.swift in Sources */,
 				CD7EA81D2B30B92F0037E429 /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
